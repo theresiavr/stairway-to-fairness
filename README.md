@@ -2,17 +2,34 @@
 
 This repository contains the appendix as well as the code used for the experiments and analysis in "Stairway to Fairness: Connecting Group and Individual Fairness" by Theresia Veronika Rampisela, Maria Maistro, Tuukka Ruotsalo, Falk Scholer, and Christina Lioma. This work has been accepted to RecSys 2025 as a short paper.
 
+[[ACM] (not active yet)](https://doi.org/10.1145/3705328.3748031)
+
 # Abstract
-Fairness in recommender systems (RSs) is commonly categorised into group fairness and individual fairness. However, there is no established scientific understanding of the relationship between the two fairness types, as prior work on both types has used different evaluation measures or evaluation objectives for each fairness type, thereby not allowing for a proper comparison of the two. As a result, it is currently not known how increasing one type of fairness may affect the other. To fill this gap, we study the relationship of group and individual fairness through a comprehensive comparison of evaluation measures that can be used for both fairness types. Our experiments with 8 runs across 3 datasets show that recommendations that are highly fair for groups can be very unfair for individuals. Our finding is novel and useful for RS practitioners aiming to improve the fairness of their systems. 
+Fairness in recommender systems (RSs) is commonly categorised into group fairness and individual fairness. However, there is no established scientific understanding of the relationship between the two fairness types, as prior work on both types has used different evaluation measures or evaluation objectives for each fairness type, thereby not allowing for a proper comparison of the two. As a result, it is currently not known how increasing one type of fairness may affect the other. To fill this gap, we study the relationship of group and individual fairness through a comprehensive comparison of evaluation measures that can be used for both fairness types. Our experiments with 8 runs across 3 datasets show that recommendations that are highly fair for groups can be very unfair for individuals. Our finding is novel and useful for RS practitioners aiming to improve the fairness of their systems.
 
 # License and Terms of Usage
 The code is usable under the MIT License. Please note that RecAI (RecLM-eval) may have different terms of usage (see [their page](https://github.com/microsoft/RecAI/tree/main/RecLM-eval) for updated information).
 
 # Citation
-To be added
+
+```BibTeX
+@inproceedings{Rampisela2025StairwayFairness,
+author = {Rampisela, Theresia Veronika and Maistro, Maria and Ruotsalo, Tuukka and Scholer, Falk and Lioma, Christina},
+title = {Stairway to Fairness: Connecting Group and Individual Fairness},
+year = {2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3705328.3748031},
+doi = {10.1145/3705328.3748031},
+location = {Prague, Czech Republic},
+series = {RecSys '25}
+}
+```
 
 # Datasets
 To be added
 
 # Evaluation
 To be added
+
+Note that parts of RecAI in this repository have been modified to suit our use case.
