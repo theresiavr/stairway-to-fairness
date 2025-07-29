@@ -1,0 +1,20 @@
+API_BASE:
+    ""
+TOKEN_URL:
+    ""
+API_VERSION:
+    "2024-02-15-preview"
+API_TYPE:
+    "gpt"
+API_KEY:
+    "xxx"
+API_COST_FILE:
+    "cost.json"
+MAX_THREADS:
+    4
+MAX_RETRIES:
+    3
+SLEEP_SECONDS:
+    0.1
+SLEEP_INP_INTERVAL:
+    5

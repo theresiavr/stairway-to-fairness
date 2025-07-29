@@ -1,0 +1,9 @@
+# this is .gitignore file, followings are ignored
+
+**/__pycache__/
+output/lfm-1b/*
+data/steam
+
+eval_models/*
+!eval_models
+*.log
