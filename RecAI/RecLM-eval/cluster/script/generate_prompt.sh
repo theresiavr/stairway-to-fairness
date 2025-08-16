@@ -10,9 +10,9 @@ nvidia-smi
 echo $CUDA_VISIBLE_DEVICES
 
 py=/home/user_id/anaconda3/envs/intersect/bin/python3.11
-prg=/home/user_id/intersectional-fairness/RecAI/RecLM-eval/preprocess/generate_data.py
+prg=/home/user_id/stairway-to-fairness/RecAI/RecLM-eval/preprocess/generate_data.py
 
-cd /home/user_id/intersectional-fairness/RecAI/RecLM-eval/
+cd /home/user_id/stairway-to-fairness/RecAI/RecLM-eval/
 
 num_sample=20000
 task_type=retrieval

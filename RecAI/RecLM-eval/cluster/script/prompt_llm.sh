@@ -11,9 +11,9 @@ nvidia-smi
 echo $CUDA_VISIBLE_DEVICES
 
 py=/home/user_id/anaconda3/envs/intersect/bin/python3.11
-eval=/home/user_id/intersectional-fairness/RecAI/RecLM-eval/eval.py
+eval=/home/user_id/stairway-to-fairness/RecAI/RecLM-eval/eval.py
 
-cd /home/user_id/intersectional-fairness/RecAI/RecLM-eval/
+cd /home/user_id/stairway-to-fairness/RecAI/RecLM-eval/
 
 task=retrieval
 v_num=1
