@@ -23,10 +23,8 @@ booktitle = {Proceedings of the Nineteenth ACM Conference on Recommender Systems
 pages = {677–683},
 numpages = {7},
 keywords = {group fairness, individual fairness, fairness evaluation},
-location = {
-},
+location = {Prague, Czech Republic},
 series = {RecSys '25}
-}
 }
 ```
 
